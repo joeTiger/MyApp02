@@ -16,4 +16,8 @@ public class ExampleUnitTest {
     public void sub_isCorrect() throws Exception {
         assertEquals(4, 6 - 2);
     }
+    @Test
+    public void div_isCorrect() throws Exception {
+        assertEquals(3, 6 / 2);
+    }
 }
